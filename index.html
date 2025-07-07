@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Explora el Mundo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">✈️ TravelBloom</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#destinos">Destinos</a></li>
+            <li><a href="#sobre-nosotros">Quiénes somos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="floating-particles" id="particles"></div>
+        <div class="hero-content">
+            <h1>Explora el mundo con TravelBloom</h1>
+            <p>Descubre nuevos destinos, culturas y experiencias únicas que cambiarán tu perspectiva del mundo</p>
+            <button class="btn-primary" id="reservarBtn">🌍 ¡Comienza tu aventura!</button>
+        </div>
+    </section>
+
+    <!-- Sección de búsqueda -->
+    <section class="busqueda" id="busqueda">
+        <h2>Encuentra tu próximo destino</h2>
+        <p>Busca entre miles de destinos increíbles alrededor del mundo</p>
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="¿A dónde quieres viajar?" />
+            <button class="btn-search" id="searchBtn">
+                <i class="fas fa-search"></i> Buscar
+            </button>
+        </div>
+        <div id="resultados" class="resultados"></div>
+    </section>
+
+    <!-- Destinos populares -->
+    <section class="destinos-populares" id="destinos">
+        <h2 class="fade-in-up">Destinos más populares</h2>
+        <div class="destinos-grid">
+            <div class="destino-item fade-in-up">
+                <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80')"></div>
+                <div class="destino-info">
+                    <h3>🗼 París, Francia</h3>
+                    <p>La ciudad del amor te espera con sus monumentos icónicos y su increíble gastronomía.</p>
+                    <div class="precio">Desde $1,200</div>
+                </div>
+            </div>
+            <div class="destino-item fade-in-up">
+                <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"></div>
+                <div class="destino-info">
+                    <h3>🏝️ Bali, Indonesia</h3>
+                    <p>Paraíso tropical con playas de ensueño y una cultura fascinante.</p>
+                    <div class="precio">Desde $800</div>
+                </div>
+            </div>
+            <div class="destino-item fade-in-up">
+                <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80')"></div>
+                <div class="destino-info">
+                    <h3>🏔️ Machu Picchu, Perú</h3>
+                    <p>Descubre la misteriosa ciudadela incaica en los Andes peruanos.</p>
+                    <div class="precio">Desde $950</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TravelBloom</h3>
+                <p>Tu compañero de viajes para explorar el mundo y crear recuerdos inolvidables.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>📧 info@travelbloom.com</p>
+                <p>📱 +1 (555) 123-4567</p>
+                <p>📍 123 Adventure St, World City</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 TravelBloom. Todos los derechos reservados. | Diseñado con ❤️ para viajeros</p>
+        </div>
+    </footer>
+</body>
+</html>
